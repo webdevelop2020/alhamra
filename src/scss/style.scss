@@ -1,0 +1,51 @@
+// // This is the single file output by sass. It is intended to ONLY @import other files.
+
+
+// vendor 
+
+@import './Vendor/fontawesome.scss', 'vendor/slick-theme.scss', 'vendor/slick.scss';
+
+// normalize
+
+@import '1-tools/normalize';
+
+// helpers
+
+@import '2-helpers/variables', '2-helpers/functions', '2-helpers/mixins';
+
+// base
+
+@import '3-basics/base', '3-basics/buttons', '3-basics/links', '3-basics/selection-colors', '3-basics/typography';
+
+// Layout
+
+@import  '4-layout/nav';
+
+// Modules
+
+@import  '5-modules/flex-video';
+
+// Pages
+
+@import '6-pages/slider', '6-pages/page-home', '6-pages/about.scss';
+
+
+//font awesome uage Instruction
+
+// Insert Html like below
+
+// <i class="fab fa-aws"></i> // same icon format
+
+// .fa-aws{
+//     color: blue; //if apply color only it's visible
+//     font-size: 2em; // default size 1em
+//     padding: .5em .5em;
+//     border: 1px solid grey;
+    
+//     &:hover{
+//         opacity: $fa-secondary-opacity;
+//     }
+// }
+
+
+// test
