@@ -1,17 +1,21 @@
 
 
 .btn-search{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
+    svg{
+        width: 15px;
+    }
 }
 
 .btn-hotline{
-    width: 160px;
-    height: 50px;
+    width: 140px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +23,16 @@
 
     span{
         padding: 0 .5em;
+        font-size: .85em;
+    }
+    svg{
+        width: 15px;
     }
 }
 
 .btn-contact{
-    width: 160px;
-    height: 50px;
+    width: 140px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +40,10 @@
 
     span{
         padding: 0 .5em;
-        // border: 1px solid grey;
+        font-size: .85em;
+    }
+    svg{
+        width: 15px;
     }
 }
 
@@ -53,28 +64,41 @@
 
 .btn-explore-slide{
     background-color: #f3f3f3;
-    width: 180px;
+    width: 160px;
     height: 45px;
-    // position: relative;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    a{
+        text-decoration: none;
+        color: #0D897F;
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #0D897F !important;
+        left: 0;
+        transition: .3s ease;
+    }
 
-    span{
-        color: #ffffff;
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);    
-        a{
-            text-decoration: none;
-            color: #ffffff;
-            margin-right: 20px;
-        }
+    &:hover{
         svg{
-            fill: #ffffff !important;
-        } 
+            left: 5px;
+        }
+    }
+
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid #0D897F;
+        position: absolute;
+        right: 0px;
+        height: 45px;
     }
 }
 
@@ -106,28 +130,50 @@
 
 .btn-explore-who{
     background-color: #0D897F;
-    width: 180px;
+    width: 160px;
     height: 45px;
-    // position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
-    span{
+    position: relative;
+    
+    a{
+        text-decoration: none;
         color: #ffffff;
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);    
-        a{
-            text-decoration: none;
-            color: #ffffff;
-            margin-right: 20px;
-        }
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #ffffff !important;
+        left: 0;
+        transition: .3s ease;
+    }
+
+    &:hover{
         svg{
-            fill: #ffffff !important;
-        } 
+            left: 5px;
+        }
+    }
+
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid lightgray;
+        position: absolute;
+        right: 0px;
+        height: 45px;
+    }
+
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid lightgray;
+        position: absolute;
+        right: 0px;
+        height: 45px;
     }
 }
 
@@ -142,35 +188,29 @@
     cursor: pointer;
     margin: 0 auto;
 
-    span{
+    a{
+        text-decoration: none;
         color: #ffffff;
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);    
-        a{
-            text-decoration: none;
-            color: #ffffff;
-            margin-right: 20px;
-            
-        }
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #ffffff !important;
+        left: 0;
+        transition: .3s ease;
+    }
+
+    &:hover{
         svg{
-            fill: #ffffff !important;
-            right: .7em;
-            transition: all 0.6s;
-            &:hover{
-                position: relative;
-                right: -.7em;
-                transition: all 0.6s;
-            }
-        } 
+            left: 5px;
+        }
     }
 }
 
-.btn-explore-prop{
+.btn-explore-search{
     position: relative;
     top: 0;
-    background-color: #f3f3f3;
+    background-color: #0D897F;
     width: 180px;
     height: 45px;
     position: relative;
@@ -180,26 +220,116 @@
     cursor: pointer;
     margin: 0 auto;
 
-    span{
-        color: #0D897F;
-        // position: absolute;
-        // top: 50%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);    
-        a{
-            text-decoration: none;
-            color: #0D897F;
-            margin-right: 20px;
-        }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #ffffff !important;
+        left: 0;
+        transition: .3s ease;
+    }
+
+    &:hover{
         svg{
-            fill: #0D897F !important;
-            transition: .6s ease-in-out;
-            &:hover{
-                position: relative;
-                right: -.7em;
-                transition: all 0.3s;
-            }
-        } 
+            left: 5px;
+        }
+    }
+    
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid lightgray;
+        position: absolute;
+        right: 0px;
+        height: 45px;
+    }
+}
+.btn-explore-prop{
+    position: relative;
+    top: 0;
+    background-color: #0D897F;
+    width: 180px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #ffffff !important;
+        left: 0;
+        transition: .3s ease;
+    }
+
+    &:hover{
+        svg{
+            left: 5px;
+        }
+    }
+    
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid lightgray;
+        position: absolute;
+        right: 0px;
+        height: 45px;
+    }
+}
+
+
+.btn-subscribe{
+    position: relative;
+    top: 0;
+    background-color: #0D897F;
+    width: 180px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-right: 20px;
+    }
+    svg{
+        position: relative;
+        fill: #ffffff !important;
+        left: 0;
+        transition: .3s ease;
+    }
+
+    &:hover{
+        svg{
+            left: 5px;
+        }
+    }
+
+    &::after{
+        content: '';
+        border-left: 45px;
+        height: auto;
+        border: 5px solid lightgray;
+        position: absolute;
+        right: 0px;
+        height: 45px;
     }
 }
 

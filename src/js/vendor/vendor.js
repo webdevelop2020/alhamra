@@ -5,6 +5,8 @@ $('.slider-nav').slick({
     slidesToScroll: 1,
     // asNavFor: '.slider-for',
     dots: true,
+    useTransform: true,
+    cssEase: "ease-in-out",
     focusOnSelect: true,
     responsive: [
       {

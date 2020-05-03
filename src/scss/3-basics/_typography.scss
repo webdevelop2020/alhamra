@@ -8,11 +8,11 @@
         font-size: 3em;
         display: inline-block;
         margin: 0;
-        font-weight: bold;
+        font-weight: 500;
         
     }
     p{
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: 300;
         display: inline-block;
     }
@@ -29,7 +29,7 @@
             font-size: 2em;
             display: inline-block;
             margin: 0;
-            font-weight: bold;
+            font-weight: 500;
             
         }
         p{
@@ -40,66 +40,16 @@
     }
 }
 
-// .what-we-do-container{
-
-//     .container{
-
-//         .card--1{
-//             grid-column: 1;
-//             grid-row: 1 / 3;
-//             align-self: center;
-//             height: auto;
-
-//         }
-//         .title{
-//             color: #0D8941;
-//             font-weight: bold;
-//             font-size: 3em;
-//             margin: 0;
-//         }
-//         span{
-//             color: #0D897F;
-//             font-size: 2em;
-//         }
-//         p{
-//             color: #0D897F;
-//             font-size: 1.5em;
-//         }
-//     }
-// }
-
-// @media only screen and (max-width: 768px){
-//     .what-we-do{
-//         padding: 2em 0;
-//         background-color: greenyellow;
-//         .title{
-//             color: #0D8941;
-//             font-weight: bold;
-//             font-size: 2.5em;
-//             margin: 0;
-//         }
-//         span{
-//             color: #0D897F;
-//             font-size: 1em;
-//         }
-//         p{
-//             color: #0D897F;
-//             font-size: 1em;
-//         }
-//     }
-    
-// }
-
 .who-we-are{
     .title{
         color: #0D8941;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 3em;
         margin: 0;
     }
     span{
         color: #0D897F;
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
@@ -108,7 +58,7 @@
 
         .title{
             color: #0D8941;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 2em;
             margin: 0;
         }
@@ -124,13 +74,13 @@
     
     .title{
         color: #0D8941;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 3em;
         margin: 0;
     }
     span{
         color: #0D897F;
-        font-size: 2em;
+        font-size: 1em;
     }
 }
 
@@ -140,7 +90,7 @@
     
         .title{
             color: #0D8941;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 2em;
             margin: 0;
         }
@@ -154,16 +104,18 @@
 
 
 .title-events{
+    padding: 1.5em 0;
     
     .title{
         color: #0D8941;
-        font-weight: bold;
+        font-weight: 500;
         font-size: 3em;
         margin: 0;
     }
     span{
         color: #0D897F;
-        font-size: 2em;
+        font-size: 1em;
+        
     }
 }
 
@@ -172,7 +124,7 @@
     
         .title{
             color: #0D8941;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 2em;
             margin: 0;
         }
